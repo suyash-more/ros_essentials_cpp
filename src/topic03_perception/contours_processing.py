@@ -1,11 +1,11 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import numpy as np
 import cv2
 
 def read_rgb_image(image_name, show):
     rgb_image = cv2.imread(image_name)
-    if show: 
+    if show:
         cv2.imshow("RGB Image",rgb_image)
     return rgb_image
 
